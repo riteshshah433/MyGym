@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Segoe UI.ttf">
+            <string>SegoeUI</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FeatureFitnessCVC" customModule="MyGym" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="156" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="156" height="117"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newBanner" translatesAutoresizingMaskIntoConstraints="NO" id="31g-cs-m9T">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="83"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="83" id="pXN-e5-0l5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold Gym International" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0W-r5-5oq">
+                        <rect key="frame" x="0.0" y="84" width="123.5" height="16"/>
+                        <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ratings Star" translatesAutoresizingMaskIntoConstraints="NO" id="9vE-yr-lpx">
+                        <rect key="frame" x="0.0" y="103" width="115" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="UMv-5u-DDh"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="31g-cs-m9T" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0V0-wK-Unf"/>
+                <constraint firstAttribute="bottom" secondItem="9vE-yr-lpx" secondAttribute="bottom" constant="4" id="2tF-SO-LU7"/>
+                <constraint firstAttribute="trailing" secondItem="31g-cs-m9T" secondAttribute="trailing" id="B7i-4U-PEg"/>
+                <constraint firstItem="9vE-yr-lpx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fxz-T8-vs1"/>
+                <constraint firstItem="31g-cs-m9T" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SW6-yN-5kp"/>
+                <constraint firstItem="X0W-r5-5oq" firstAttribute="top" secondItem="31g-cs-m9T" secondAttribute="bottom" constant="1" id="UMS-hO-wTT"/>
+                <constraint firstItem="9vE-yr-lpx" firstAttribute="top" secondItem="X0W-r5-5oq" secondAttribute="bottom" constant="3" id="cVa-r3-yNu"/>
+                <constraint firstItem="X0W-r5-5oq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cla-bd-qgd"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="X0W-r5-5oq" secondAttribute="trailing" constant="4" id="d1m-Ij-FgV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="246" height="139"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="36.799999999999997" y="84.107946026986511"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Ratings Star" width="115" height="10"/>
+        <image name="newBanner" width="337" height="147"/>
+    </resources>
+</document>
