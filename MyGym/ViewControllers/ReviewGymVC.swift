@@ -14,9 +14,6 @@ class ReviewGymVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        DispatchQueue.main.async {
-            self.view_header.makeGradientBackGround(colors: [UIColor.HASH_FF6623.cgColor,UIColor.HASH_FF4F01.cgColor], cornerRadius: 0)
-        }
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

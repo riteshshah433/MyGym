@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,8 +27,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="156" height="99"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_layer_blue" translatesAutoresizingMaskIntoConstraints="NO" id="LG7-YK-Y2Q">
-                        <rect key="frame" x="0.0" y="0.0" width="156" height="99"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="membershipDemo1" translatesAutoresizingMaskIntoConstraints="NO" id="LG7-YK-Y2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="87"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_forword" translatesAutoresizingMaskIntoConstraints="NO" id="99b-r4-oIF">
                         <rect key="frame" x="146" y="89" width="5" height="7"/>
@@ -48,12 +48,12 @@
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" name="#FF6623"/>
+            <color key="backgroundColor" red="1" green="0.39215686274509803" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="6UJ-96-oW0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="2AG-Qt-v9T"/>
                 <constraint firstItem="LG7-YK-Y2Q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4ap-A9-HEi"/>
                 <constraint firstAttribute="bottom" secondItem="6UJ-96-oW0" secondAttribute="bottom" constant="16" id="Ekz-TY-p49"/>
-                <constraint firstAttribute="bottom" secondItem="LG7-YK-Y2Q" secondAttribute="bottom" id="GQF-yE-Bbd"/>
+                <constraint firstAttribute="bottom" secondItem="LG7-YK-Y2Q" secondAttribute="bottom" constant="12" id="GQF-yE-Bbd"/>
                 <constraint firstAttribute="bottom" secondItem="99b-r4-oIF" secondAttribute="bottom" constant="3" id="It8-Ez-t7r"/>
                 <constraint firstItem="99b-r4-oIF" firstAttribute="leading" secondItem="KY3-va-AmF" secondAttribute="trailing" constant="3" id="K22-Gu-kW1"/>
                 <constraint firstAttribute="trailing" secondItem="6UJ-96-oW0" secondAttribute="trailing" constant="6" id="X8Q-LR-rVP"/>
@@ -70,14 +70,14 @@
                     <real key="value" value="4"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="lbl_fitnessName" destination="6UJ-96-oW0" id="oxb-HR-8Jb"/>
+            </connections>
             <point key="canvasLocation" x="217.59999999999999" y="180.35982008995504"/>
         </collectionViewCell>
     </objects>
     <resources>
         <image name="ic_forword" width="5" height="7"/>
-        <image name="ic_layer_blue" width="152" height="95"/>
-        <namedColor name="#FF6623">
-            <color red="1" green="0.40000000000000002" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="membershipDemo1" width="152" height="85"/>
     </resources>
 </document>

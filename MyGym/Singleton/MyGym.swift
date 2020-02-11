@@ -13,8 +13,33 @@ class MyGym: NSObject {
     static let shared = MyGym()
     private override init() {}
     
+    //Set Bottom shadow of UIView
+    func setBottomShadow(someView:UIView)  {
+        let shadowPath = UIBezierPath()
+        shadowPath.move(to: CGPoint(x: 0, y: someView.bounds.height+4))
+        shadowPath.addLine(to: CGPoint(x: someView.bounds.width, y: someView.bounds.height+4))
+        shadowPath.addLine(to: CGPoint(x: someView.bounds.width, y: someView.bounds.height - 4))
+        shadowPath.addLine(to: CGPoint(x: 0, y: someView.bounds.height - 4))
+        shadowPath.close()
+        
+        someView.layer.shadowColor = UIColor.HASH_FFB492.cgColor
+        someView.layer.shadowOpacity = 0.1
+        someView.layer.masksToBounds = false
+        someView.layer.shadowPath = shadowPath.cgPath
+        someView.layer.shadowRadius = 2
+    }
     
-   
+   // Set UnderLint to text view texts
+    func setLastUnderLineText(text:String) -> NSMutableAttributedString {
+        let textRange = NSMakeRange(text.count-11, 11)
+        let attributedText = NSMutableAttributedString(string: text)
+        attributedText.addAttribute(NSAttributedString.Key.font, value: UIFont(name: Font_SegoeUI.semiBold, size: 13) as Any, range: NSMakeRange(0, text.count))
+        attributedText.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.HASH_212121, range: NSMakeRange(0, text.count-11))
+        attributedText.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.HASH_000CB8, range: NSMakeRange(text.count-11, 11))
+        attributedText.addAttribute(NSAttributedString.Key.underlineStyle , value: NSUnderlineStyle.single.rawValue, range: textRange)
+        // Add other attributes if needed
+        return attributedText
+    }
     
     // Set bounse animation on view
     func setAnimatiedLogo(view:UIView)  {
@@ -65,5 +90,23 @@ class MyGym: NSObject {
     func registerCollViewHeader(collectionView:UICollectionView,identifier:String) {
         let nib = UINib(nibName: identifier, bundle: nil)
         collectionView.register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier)
+    }
+    
+    func presentSideMenu(src:UIViewController,dst:UIViewController)  {
+        
+        dst.modalPresentationStyle = .overCurrentContext
+        src.view.insertSubview(dst.view, aboveSubview: src.view)
+        dst.view.transform = CGAffineTransform(translationX: -src.view.frame.size.width, y: 0)
+        src.present(dst, animated: false, completion: nil)
+        UIView.animate(withDuration: 0.20,
+                       delay: 0.0,
+                       options: .curveEaseOut,
+                       animations: {
+                        dst.view.transform = CGAffineTransform(translationX: 0, y: 0)
+        },
+                       completion: { finished in
+                        
+        }
+        )
     }
 }

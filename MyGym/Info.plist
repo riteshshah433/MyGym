@@ -20,6 +20,21 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>open-sans.light.ttf</string>
+		<string>open-sans.regular.ttf</string>
+		<string>open-sans.semibold.ttf</string>
+		<string>Segoe UI Bold Italic.ttf</string>
+		<string>Segoe UI Bold.ttf</string>
+		<string>Segoe UI Italic.ttf</string>
+		<string>Segoe UI.ttf</string>
+		<string>seguisb.ttf</string>
+		<string>open-sans.bold.ttf</string>
+		<string>open-sans.extrabold.ttf</string>
+		<string>open-sans.italic.ttf</string>
+		<string>open-sans.light-italic.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -23,11 +23,26 @@
 		802A8EB423E7DD6200B4A306 /* MyGym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802A8EB323E7DD6200B4A306 /* MyGym.swift */; };
 		802A8EBB23E7DF0E00B4A306 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802A8EBA23E7DF0E00B4A306 /* LoginVC.swift */; };
 		802A8EBE23E7E88900B4A306 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802A8EBD23E7E88900B4A306 /* HomeVC.swift */; };
+		8032E74623EFC0C3008670DE /* FitnessTipCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8032E74423EFC0C3008670DE /* FitnessTipCVC.swift */; };
+		8032E74723EFC0C3008670DE /* FitnessTipCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8032E74523EFC0C3008670DE /* FitnessTipCVC.xib */; };
+		805443A423ED65B8009B30E0 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805443A323ED65B8009B30E0 /* SideMenuVC.swift */; };
+		805443A723ED8633009B30E0 /* SideMenuOptionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805443A623ED8633009B30E0 /* SideMenuOptionTVC.swift */; };
+		8055D80D23EE957600830BCB /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055D80C23EE957600830BCB /* EditProfileVC.swift */; };
+		805E1D5123F160AF00C33214 /* PlanPackageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E1D5023F160AF00C33214 /* PlanPackageVC.swift */; };
+		806CAE3423EE712300A939D9 /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806CAE3323EE712300A939D9 /* MyAccountVC.swift */; };
+		8073145923F28F26006692A0 /* PaymentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073145823F28F26006692A0 /* PaymentDetailVC.swift */; };
+		807F2E7623F27A9A00E83600 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F2E7523F27A9A00E83600 /* CartVC.swift */; };
 		808744D523E7FB41005406F7 /* TabBartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808744D423E7FB41005406F7 /* TabBartViewController.swift */; };
 		808744D923E7FDD5005406F7 /* HomeItemCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808744D723E7FDD5005406F7 /* HomeItemCVC.swift */; };
 		808744DA23E7FDD5005406F7 /* HomeItemCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808744D823E7FDD5005406F7 /* HomeItemCVC.xib */; };
 		808744DD23E7FDF1005406F7 /* HomeItemHeaderCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808744DB23E7FDF1005406F7 /* HomeItemHeaderCVC.swift */; };
 		808744DE23E7FDF1005406F7 /* HomeItemHeaderCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808744DC23E7FDF1005406F7 /* HomeItemHeaderCVC.xib */; };
+		808E064223EFD80800A0E109 /* Segoe UI Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8072C86523E7F6EB00C0A84E /* Segoe UI Bold Italic.ttf */; };
+		808E064323EFD80E00A0E109 /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8072C86623E7F6EB00C0A84E /* Segoe UI Bold.ttf */; };
+		808E064423EFD80E00A0E109 /* Segoe UI Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8072C86823E7F6EB00C0A84E /* Segoe UI Italic.ttf */; };
+		808E064523EFD80E00A0E109 /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8072C86923E7F6EB00C0A84E /* Segoe UI.ttf */; };
+		808E064623EFD80E00A0E109 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8072C86723E7F6EB00C0A84E /* seguisb.ttf */; };
+		80A71C7823F1869C00B7F509 /* CheckInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A71C7723F1869C00B7F509 /* CheckInVC.swift */; };
 		80B0463223E80FBA0056D7E5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0463123E80FBA0056D7E5 /* Constant.swift */; };
 		80B0463523E810AB0056D7E5 /* FeatureFitnessCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0463323E810AB0056D7E5 /* FeatureFitnessCVC.swift */; };
 		80B0463623E810AB0056D7E5 /* FeatureFitnessCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B0463423E810AB0056D7E5 /* FeatureFitnessCVC.xib */; };
@@ -35,7 +50,11 @@
 		80B0463B23E823C30056D7E5 /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0463923E823C30056D7E5 /* SearchTVC.swift */; };
 		80B0463C23E823C30056D7E5 /* SearchTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B0463A23E823C30056D7E5 /* SearchTVC.xib */; };
 		80B0463E23E828620056D7E5 /* ReviewGymVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B0463D23E828620056D7E5 /* ReviewGymVC.swift */; };
+		80D0B54923F130FC00AB49D8 /* GymDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D0B54823F130FC00AB49D8 /* GymDetails.storyboard */; };
+		80D9F9BB23F1328E005D4650 /* GymDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9F9BA23F1328E005D4650 /* GymDetailsVC.swift */; };
+		80DE19EE23F2C37100F62504 /* PaymentStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE19ED23F2C37100F62504 /* PaymentStatusVC.swift */; };
 		80E229AC23E8358A00A73771 /* SuggestGymVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E229AB23E8358A00A73771 /* SuggestGymVC.swift */; };
+		80E229AE23E850ED00A73771 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E229AD23E850ED00A73771 /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,16 +76,26 @@
 		802A8EB323E7DD6200B4A306 /* MyGym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGym.swift; sourceTree = "<group>"; };
 		802A8EBA23E7DF0E00B4A306 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		802A8EBD23E7E88900B4A306 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8032E74423EFC0C3008670DE /* FitnessTipCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTipCVC.swift; sourceTree = "<group>"; };
+		8032E74523EFC0C3008670DE /* FitnessTipCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FitnessTipCVC.xib; sourceTree = "<group>"; };
+		805443A323ED65B8009B30E0 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		805443A623ED8633009B30E0 /* SideMenuOptionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionTVC.swift; sourceTree = "<group>"; };
+		8055D80C23EE957600830BCB /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		805E1D5023F160AF00C33214 /* PlanPackageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPackageVC.swift; sourceTree = "<group>"; };
+		806CAE3323EE712300A939D9 /* MyAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
 		8072C86523E7F6EB00C0A84E /* Segoe UI Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold Italic.ttf"; sourceTree = "<group>"; };
 		8072C86623E7F6EB00C0A84E /* Segoe UI Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold.ttf"; sourceTree = "<group>"; };
 		8072C86723E7F6EB00C0A84E /* seguisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = seguisb.ttf; sourceTree = "<group>"; };
 		8072C86823E7F6EB00C0A84E /* Segoe UI Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Italic.ttf"; sourceTree = "<group>"; };
 		8072C86923E7F6EB00C0A84E /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
+		8073145823F28F26006692A0 /* PaymentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailVC.swift; sourceTree = "<group>"; };
+		807F2E7523F27A9A00E83600 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		808744D423E7FB41005406F7 /* TabBartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBartViewController.swift; sourceTree = "<group>"; };
 		808744D723E7FDD5005406F7 /* HomeItemCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCVC.swift; sourceTree = "<group>"; };
 		808744D823E7FDD5005406F7 /* HomeItemCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeItemCVC.xib; sourceTree = "<group>"; };
 		808744DB23E7FDF1005406F7 /* HomeItemHeaderCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemHeaderCVC.swift; sourceTree = "<group>"; };
 		808744DC23E7FDF1005406F7 /* HomeItemHeaderCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeItemHeaderCVC.xib; sourceTree = "<group>"; };
+		80A71C7723F1869C00B7F509 /* CheckInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInVC.swift; sourceTree = "<group>"; };
 		80B0463123E80FBA0056D7E5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		80B0463323E810AB0056D7E5 /* FeatureFitnessCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFitnessCVC.swift; sourceTree = "<group>"; };
 		80B0463423E810AB0056D7E5 /* FeatureFitnessCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureFitnessCVC.xib; sourceTree = "<group>"; };
@@ -74,7 +103,11 @@
 		80B0463923E823C30056D7E5 /* SearchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTVC.swift; sourceTree = "<group>"; };
 		80B0463A23E823C30056D7E5 /* SearchTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTVC.xib; sourceTree = "<group>"; };
 		80B0463D23E828620056D7E5 /* ReviewGymVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewGymVC.swift; sourceTree = "<group>"; };
+		80D0B54823F130FC00AB49D8 /* GymDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GymDetails.storyboard; sourceTree = "<group>"; };
+		80D9F9BA23F1328E005D4650 /* GymDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymDetailsVC.swift; sourceTree = "<group>"; };
+		80DE19ED23F2C37100F62504 /* PaymentStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatusVC.swift; sourceTree = "<group>"; };
 		80E229AB23E8358A00A73771 /* SuggestGymVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestGymVC.swift; sourceTree = "<group>"; };
+		80E229AD23E850ED00A73771 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +140,7 @@
 		800D7DAD23E544D700286D48 /* MyGym */ = {
 			isa = PBXGroup;
 			children = (
+				808E064123EFD57E00A0E109 /* Font */,
 				802A8EB223E7DD3200B4A306 /* Singleton */,
 				802A8EB923E7DEE800B4A306 /* ViewModel */,
 				802A8EB823E7DEDF00B4A306 /* Model */,
@@ -118,25 +152,6 @@
 				800D7DBA23E544DA00286D48 /* Info.plist */,
 			);
 			path = MyGym;
-			sourceTree = "<group>";
-		};
-		800D7DC023E54E1E00286D48 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				8072C86523E7F6EB00C0A84E /* Segoe UI Bold Italic.ttf */,
-				8072C86623E7F6EB00C0A84E /* Segoe UI Bold.ttf */,
-				8072C86823E7F6EB00C0A84E /* Segoe UI Italic.ttf */,
-				8072C86923E7F6EB00C0A84E /* Segoe UI.ttf */,
-				8072C86723E7F6EB00C0A84E /* seguisb.ttf */,
-				800D7DD623E54E5200286D48 /* open-sans.bold.ttf */,
-				800D7DD823E54E5200286D48 /* open-sans.extrabold.ttf */,
-				800D7DDB23E54E5200286D48 /* open-sans.italic.ttf */,
-				800D7DD723E54E5200286D48 /* open-sans.light-italic.ttf */,
-				800D7DDA23E54E5200286D48 /* open-sans.light.ttf */,
-				800D7DD923E54E5200286D48 /* open-sans.regular.ttf */,
-				800D7DDC23E54E5200286D48 /* open-sans.semibold.ttf */,
-			);
-			path = Font;
 			sourceTree = "<group>";
 		};
 		802A8EB223E7DD3200B4A306 /* Singleton */ = {
@@ -156,6 +171,14 @@
 				802A8EBC23E7E86B00B4A306 /* TabBarControllers */,
 				80B0463D23E828620056D7E5 /* ReviewGymVC.swift */,
 				80E229AB23E8358A00A73771 /* SuggestGymVC.swift */,
+				8055D80C23EE957600830BCB /* EditProfileVC.swift */,
+				80D9F9BA23F1328E005D4650 /* GymDetailsVC.swift */,
+				805E1D5023F160AF00C33214 /* PlanPackageVC.swift */,
+				80A71C7723F1869C00B7F509 /* CheckInVC.swift */,
+				807F2E7523F27A9A00E83600 /* CartVC.swift */,
+				8073145823F28F26006692A0 /* PaymentDetailVC.swift */,
+				80DE19ED23F2C37100F62504 /* PaymentStatusVC.swift */,
+				805443A523ED8600009B30E0 /* SideMenu */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -163,7 +186,6 @@
 		802A8EB623E7DEAE00B4A306 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				800D7DC023E54E1E00286D48 /* Font */,
 				800D7DE423E5511500286D48 /* Extensions.swift */,
 				80B0463123E80FBA0056D7E5 /* Constant.swift */,
 			);
@@ -174,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				800D7DB223E544D700286D48 /* Main.storyboard */,
+				80D0B54823F130FC00AB49D8 /* GymDetails.storyboard */,
 				808744D623E7FD6B005406F7 /* CellXIB */,
 			);
 			path = View;
@@ -199,23 +222,56 @@
 				808744D423E7FB41005406F7 /* TabBartViewController.swift */,
 				802A8EBD23E7E88900B4A306 /* HomeVC.swift */,
 				80B0463723E822710056D7E5 /* SearchVC.swift */,
+				806CAE3323EE712300A939D9 /* MyAccountVC.swift */,
+				80E229AD23E850ED00A73771 /* SettingsVC.swift */,
 			);
 			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		805443A523ED8600009B30E0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				805443A323ED65B8009B30E0 /* SideMenuVC.swift */,
+				805443A623ED8633009B30E0 /* SideMenuOptionTVC.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		808744D623E7FD6B005406F7 /* CellXIB */ = {
 			isa = PBXGroup;
 			children = (
-				808744D723E7FDD5005406F7 /* HomeItemCVC.swift */,
-				808744D823E7FDD5005406F7 /* HomeItemCVC.xib */,
 				808744DB23E7FDF1005406F7 /* HomeItemHeaderCVC.swift */,
 				808744DC23E7FDF1005406F7 /* HomeItemHeaderCVC.xib */,
+				808744D723E7FDD5005406F7 /* HomeItemCVC.swift */,
+				808744D823E7FDD5005406F7 /* HomeItemCVC.xib */,
 				80B0463323E810AB0056D7E5 /* FeatureFitnessCVC.swift */,
 				80B0463423E810AB0056D7E5 /* FeatureFitnessCVC.xib */,
+				8032E74423EFC0C3008670DE /* FitnessTipCVC.swift */,
+				8032E74523EFC0C3008670DE /* FitnessTipCVC.xib */,
 				80B0463923E823C30056D7E5 /* SearchTVC.swift */,
 				80B0463A23E823C30056D7E5 /* SearchTVC.xib */,
 			);
 			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		808E064123EFD57E00A0E109 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				800D7DDA23E54E5200286D48 /* open-sans.light.ttf */,
+				800D7DD923E54E5200286D48 /* open-sans.regular.ttf */,
+				800D7DDC23E54E5200286D48 /* open-sans.semibold.ttf */,
+				8072C86523E7F6EB00C0A84E /* Segoe UI Bold Italic.ttf */,
+				8072C86623E7F6EB00C0A84E /* Segoe UI Bold.ttf */,
+				8072C86823E7F6EB00C0A84E /* Segoe UI Italic.ttf */,
+				8072C86923E7F6EB00C0A84E /* Segoe UI.ttf */,
+				8072C86723E7F6EB00C0A84E /* seguisb.ttf */,
+				800D7DD623E54E5200286D48 /* open-sans.bold.ttf */,
+				800D7DD823E54E5200286D48 /* open-sans.extrabold.ttf */,
+				800D7DDB23E54E5200286D48 /* open-sans.italic.ttf */,
+				800D7DD723E54E5200286D48 /* open-sans.light-italic.ttf */,
+			);
+			name = Font;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,14 +332,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808E064323EFD80E00A0E109 /* Segoe UI Bold.ttf in Resources */,
+				808E064423EFD80E00A0E109 /* Segoe UI Italic.ttf in Resources */,
+				808E064523EFD80E00A0E109 /* Segoe UI.ttf in Resources */,
+				808E064623EFD80E00A0E109 /* seguisb.ttf in Resources */,
+				808E064223EFD80800A0E109 /* Segoe UI Bold Italic.ttf in Resources */,
 				800D7DB923E544DA00286D48 /* LaunchScreen.storyboard in Resources */,
 				80B0463C23E823C30056D7E5 /* SearchTVC.xib in Resources */,
 				800D7DE123E54E5200286D48 /* open-sans.light.ttf in Resources */,
 				800D7DDD23E54E5200286D48 /* open-sans.bold.ttf in Resources */,
 				800D7DB623E544DA00286D48 /* Assets.xcassets in Resources */,
 				800D7DDE23E54E5200286D48 /* open-sans.light-italic.ttf in Resources */,
+				80D0B54923F130FC00AB49D8 /* GymDetails.storyboard in Resources */,
 				800D7DE323E54E5200286D48 /* open-sans.semibold.ttf in Resources */,
 				800D7DE223E54E5200286D48 /* open-sans.italic.ttf in Resources */,
+				8032E74723EFC0C3008670DE /* FitnessTipCVC.xib in Resources */,
 				808744DE23E7FDF1005406F7 /* HomeItemHeaderCVC.xib in Resources */,
 				800D7DDF23E54E5200286D48 /* open-sans.extrabold.ttf in Resources */,
 				800D7DB423E544D700286D48 /* Main.storyboard in Resources */,
@@ -300,21 +363,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8073145923F28F26006692A0 /* PaymentDetailVC.swift in Sources */,
+				80A71C7823F1869C00B7F509 /* CheckInVC.swift in Sources */,
+				805443A723ED8633009B30E0 /* SideMenuOptionTVC.swift in Sources */,
+				806CAE3423EE712300A939D9 /* MyAccountVC.swift in Sources */,
+				807F2E7623F27A9A00E83600 /* CartVC.swift in Sources */,
 				80B0463E23E828620056D7E5 /* ReviewGymVC.swift in Sources */,
 				80B0463823E822710056D7E5 /* SearchVC.swift in Sources */,
 				808744D923E7FDD5005406F7 /* HomeItemCVC.swift in Sources */,
 				80B0463B23E823C30056D7E5 /* SearchTVC.swift in Sources */,
+				805E1D5123F160AF00C33214 /* PlanPackageVC.swift in Sources */,
 				80E229AC23E8358A00A73771 /* SuggestGymVC.swift in Sources */,
+				80E229AE23E850ED00A73771 /* SettingsVC.swift in Sources */,
 				800D7DE523E5511500286D48 /* Extensions.swift in Sources */,
 				802A8EBB23E7DF0E00B4A306 /* LoginVC.swift in Sources */,
+				8055D80D23EE957600830BCB /* EditProfileVC.swift in Sources */,
 				800D7DAF23E544D700286D48 /* AppDelegate.swift in Sources */,
 				808744D523E7FB41005406F7 /* TabBartViewController.swift in Sources */,
 				802A8EBE23E7E88900B4A306 /* HomeVC.swift in Sources */,
 				808744DD23E7FDF1005406F7 /* HomeItemHeaderCVC.swift in Sources */,
 				80B0463223E80FBA0056D7E5 /* Constant.swift in Sources */,
 				802A8EB423E7DD6200B4A306 /* MyGym.swift in Sources */,
+				805443A423ED65B8009B30E0 /* SideMenuVC.swift in Sources */,
 				80291B8823E59DA700BA43D8 /* SplashViewController.swift in Sources */,
+				80D9F9BB23F1328E005D4650 /* GymDetailsVC.swift in Sources */,
+				8032E74623EFC0C3008670DE /* FitnessTipCVC.swift in Sources */,
 				80B0463523E810AB0056D7E5 /* FeatureFitnessCVC.swift in Sources */,
+				80DE19EE23F2C37100F62504 /* PaymentStatusVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 84GD72CCTC;
 				INFOPLIST_FILE = MyGym/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ps.MyGym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = MyGym03Feb;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -481,7 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 84GD72CCTC;
 				INFOPLIST_FILE = MyGym/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,7 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ps.MyGym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = MyGym03Feb;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -17,17 +17,18 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
 
         MyGym.shared.registerTableViewCell(tableView: tbl_searchItem, identifier: TVC_Identifier.search_item)
-        DispatchQueue.main.async {
-            self.view_header.makeGradientBackGround(colors: [UIColor.HASH_FF6623.cgColor,UIColor.HASH_FF4F01.cgColor], cornerRadius: 0)
-        }
+        txt_search.setPlaceholderWithColor(placeholer: "Search in Deira, Dubai", color: UIColor.HASH_8F8F8F)
+    
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
     }
     @IBAction func locationBtnAction(_ sender: Any) {
-        let reviewGym = storyboard?.instantiateViewController(withIdentifier:  "SuggestGymVC") as! SuggestGymVC
-        navigationController?.pushViewController(reviewGym, animated: true)
+        
+    }
+    @IBAction func backBtnAction(_ sender: Any) {
+        tabBarController?.selectedIndex = 0
     }
 }
 extension SearchVC:UITextFieldDelegate{
@@ -45,7 +46,7 @@ extension SearchVC:UITableViewDelegate,UITableViewDataSource{
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let reviewGym = storyboard?.instantiateViewController(withIdentifier:  "ReviewGymVC") as! ReviewGymVC
-        navigationController?.pushViewController(reviewGym, animated: true)
+        let gymDetailsVC = GymDetails_Storyboard.instantiateViewController(withIdentifier: "GymDetailsVC")
+        navigationController?.pushViewController(gymDetailsVC, animated: true)
     }
 }

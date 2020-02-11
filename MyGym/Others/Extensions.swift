@@ -18,6 +18,9 @@ extension UITextField {
     func setPlaceholderColor(placeholer:String)  {
         attributedPlaceholder = NSAttributedString(string: placeholer, attributes: [NSAttributedString.Key.foregroundColor: UIColor.init(displayP3Red: 211/255, green: 211/255, blue: 211/255, alpha: 1.0)])
     }
+    func setPlaceholderWithColor(placeholer:String,color:UIColor)  {
+        attributedPlaceholder = NSAttributedString(string: placeholer, attributes: [NSAttributedString.Key.foregroundColor: color])
+    }
     func setLeftImage(image:UIImage)  {
         let imageView = UIImageView();
         imageView.frame = CGRect(x: 5, y: 0, width: 33, height: self.frame.height)
@@ -135,6 +138,15 @@ extension UITextField {
         layer.insertSublayer(gradient, at: 0)
     }
 }
+extension UILabel {
+    func addCharacterSpacing(kernValue: Double = 1.15) {
+        if let labelText = text, labelText.count > 0 {
+            let attributedString = NSMutableAttributedString(string: labelText)
+            attributedString.addAttribute(NSAttributedString.Key.kern, value: kernValue, range: NSRange(location: 0, length: attributedString.length - 1))
+            attributedText = attributedString
+        }
+    }
+}
 extension UIButton {
     func leftImage(image: UIImage, renderMode: UIImage.RenderingMode) {
         self.setImage(image.withRenderingMode(renderMode), for: .normal)
@@ -142,7 +154,6 @@ extension UIButton {
         self.contentHorizontalAlignment = .left
         self.imageView?.contentMode = .scaleAspectFit
     }
-    
     func rightImage(image: UIImage, renderMode: UIImage.RenderingMode){
         self.setImage(image.withRenderingMode(renderMode), for: .normal)
         self.imageEdgeInsets = UIEdgeInsets(top: 0, left:image.size.width / 2, bottom: 0, right: 0)
@@ -156,4 +167,11 @@ extension UIButton {
 extension UIColor{
     public class var HASH_FF4F01 : UIColor { return UIColor.init(red: 255.0/255.0 , green: 79.0/255.0, blue: 1.0/255.0, alpha: 0.74) }
     public class var HASH_FF6623 : UIColor { return UIColor.init(red: 255.0/255.0 , green: 102.0/255.0, blue: 35.0/255.0, alpha: 1.0) }
+    public class var HASH_8F8F8F : UIColor { return UIColor.init(red: 143.0/255.0 , green: 143.0/255.0, blue: 143.0/255.0, alpha: 1.0) }
+    public class var HASH_FF7C39 : UIColor { return UIColor.init(red: 143.0/255.0 , green: 143.0/255.0, blue: 143.0/255.0, alpha: 1.0) }
+    public class var HASH_212121 : UIColor { return UIColor.init(red: 33.0/255.0 , green: 33.0/255.0, blue: 33.0/255.0, alpha: 1.0) }
+    public class var HASH_000CB8 : UIColor { return UIColor.init(red: 0.0/255.0 , green: 12.0/255.0, blue: 184.0/255.0, alpha: 1.0) }
+    public class var HASH_FFB492 : UIColor { return UIColor.init(red: 255.0/255.0 , green: 180.0/255.0, blue: 146.0/255.0, alpha: 1.0) }
 }
+
+//
